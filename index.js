@@ -32,8 +32,6 @@ const OAuthToken = process.env.O_AUTH_TOKEN;
 const accountId = process.env.ACCOUNT_ID;
 
 //Recipient Information goes here
-const recipientName = "carl";
-const recipientEmail = "carlcorsini@yahoo.com";
 
 //Point this to the document you wish to send's location on the local machine. Default location is __workingDir\fileName
 // const fileName = "yes.pdf"; //IE: test.pdf
