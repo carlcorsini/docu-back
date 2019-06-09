@@ -38,6 +38,10 @@ const accountId = process.env.ACCOUNT_ID;
 //-------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------
 
+app.get('/', (req, res) => {
+    res.status(404).send('NOT FOUND')
+})
+
 app.post("/", function (req, res) {
     console.log("body");
     let {
